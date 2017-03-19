@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #
-# Author: K. Walsh <kwalsh@cs.holycross.edu>
-# Date: 9 February 2017
+# Author: Tyler MacDonald <tcmacd18@g.holycross.edu>
+# Date: 14 March 2017
 #
 # Geolocation service top level program. Run it like this:
 #   ./geolocation.py <CentralIP> <Port>
@@ -15,6 +15,7 @@ import sys            # for sys.argv
 import aws            # for aws.region_for_zone
 import gcp            # for gcp.region_for_zone
 import cloud          # for cloud.region_cities, etc.
+
 
 # Get the central_host name and port number from the command line
 central_host = sys.argv[1]
